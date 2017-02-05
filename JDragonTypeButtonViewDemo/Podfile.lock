@@ -1,0 +1,16 @@
+PODS:
+  - JDragonTypeButtonView (0.0.1)
+
+DEPENDENCIES:
+  - JDragonTypeButtonView (from `../JDragonTypeButtonView.podspec`)
+
+EXTERNAL SOURCES:
+  JDragonTypeButtonView:
+    :path: "../JDragonTypeButtonView.podspec"
+
+SPEC CHECKSUMS:
+  JDragonTypeButtonView: bdc0b036016fa2f6b084067152bf12f6a2436a24
+
+PODFILE CHECKSUM: 80ae68e6ed1376ca254c413fb36a2bc26df97787
+
+COCOAPODS: 1.2.0.rc.1

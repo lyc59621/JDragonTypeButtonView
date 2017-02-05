@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274E4D650A00D1237942B9DD /* libPods-JDragonTypeButtonViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A2AD79164A5E8D83A6D86D /* libPods-JDragonTypeButtonViewDemoTests.a */; };
+		69458CC71E46C0A600F6AFC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69458CC61E46C0A600F6AFC0 /* main.m */; };
+		69458CCA1E46C0A600F6AFC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69458CC91E46C0A600F6AFC0 /* AppDelegate.m */; };
+		69458CCD1E46C0A600F6AFC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69458CCC1E46C0A600F6AFC0 /* ViewController.m */; };
+		69458CD01E46C0A600F6AFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69458CCE1E46C0A600F6AFC0 /* Main.storyboard */; };
+		69458CD21E46C0A600F6AFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69458CD11E46C0A600F6AFC0 /* Assets.xcassets */; };
+		69458CD51E46C0A600F6AFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69458CD31E46C0A600F6AFC0 /* LaunchScreen.storyboard */; };
+		69458CE01E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69458CDF1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests.m */; };
+		69458CEB1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69458CEA1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests.m */; };
+		6B591A180D6D659E3E4FAE3B /* libPods-JDragonTypeButtonViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E90EA246B485407578BA13F /* libPods-JDragonTypeButtonViewDemo.a */; };
+		A057F313751DD324539ED9E9 /* libPods-JDragonTypeButtonViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE786D82D91676A8E414BDA /* libPods-JDragonTypeButtonViewDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69458CDC1E46C0A600F6AFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69458CBA1E46C0A600F6AFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69458CC11E46C0A600F6AFC0;
+			remoteInfo = JDragonTypeButtonViewDemo;
+		};
+		69458CE71E46C0A600F6AFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69458CBA1E46C0A600F6AFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69458CC11E46C0A600F6AFC0;
+			remoteInfo = JDragonTypeButtonViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FE786D82D91676A8E414BDA /* libPods-JDragonTypeButtonViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDragonTypeButtonViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1F06BFAF1948A61E244AAA /* Pods-JDragonTypeButtonViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonTypeButtonViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonTypeButtonViewDemo/Pods-JDragonTypeButtonViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		50942E53C45DBADC9A128872 /* Pods-JDragonTypeButtonViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonTypeButtonViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonTypeButtonViewDemoTests/Pods-JDragonTypeButtonViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69458CC21E46C0A600F6AFC0 /* JDragonTypeButtonViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDragonTypeButtonViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69458CC61E46C0A600F6AFC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69458CC81E46C0A600F6AFC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69458CC91E46C0A600F6AFC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69458CCB1E46C0A600F6AFC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69458CCC1E46C0A600F6AFC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69458CCF1E46C0A600F6AFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69458CD11E46C0A600F6AFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69458CD41E46C0A600F6AFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69458CD61E46C0A600F6AFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69458CDB1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDragonTypeButtonViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69458CDF1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDragonTypeButtonViewDemoTests.m; sourceTree = "<group>"; };
+		69458CE11E46C0A600F6AFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69458CE61E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDragonTypeButtonViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69458CEA1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDragonTypeButtonViewDemoUITests.m; sourceTree = "<group>"; };
+		69458CEC1E46C0A600F6AFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E90EA246B485407578BA13F /* libPods-JDragonTypeButtonViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDragonTypeButtonViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88691B2D3F7C764F90677BAF /* Pods-JDragonTypeButtonViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonTypeButtonViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonTypeButtonViewDemoUITests/Pods-JDragonTypeButtonViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFD33B3BA0E9334F7EA15406 /* Pods-JDragonTypeButtonViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonTypeButtonViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonTypeButtonViewDemoUITests/Pods-JDragonTypeButtonViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1A2AD79164A5E8D83A6D86D /* libPods-JDragonTypeButtonViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDragonTypeButtonViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6621C6045E08993B3420F2 /* Pods-JDragonTypeButtonViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonTypeButtonViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonTypeButtonViewDemoTests/Pods-JDragonTypeButtonViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2A1990CF5BA2F20820078B3 /* Pods-JDragonTypeButtonViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonTypeButtonViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonTypeButtonViewDemo/Pods-JDragonTypeButtonViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69458CBF1E46C0A600F6AFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B591A180D6D659E3E4FAE3B /* libPods-JDragonTypeButtonViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69458CD81E46C0A600F6AFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274E4D650A00D1237942B9DD /* libPods-JDragonTypeButtonViewDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69458CE31E46C0A600F6AFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A057F313751DD324539ED9E9 /* libPods-JDragonTypeButtonViewDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69458CB91E46C0A600F6AFC0 = {
+			isa = PBXGroup;
+			children = (
+				69458CC41E46C0A600F6AFC0 /* JDragonTypeButtonViewDemo */,
+				69458CDE1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests */,
+				69458CE91E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests */,
+				69458CC31E46C0A600F6AFC0 /* Products */,
+				7CF6CCF3BD9FE0BF20D0F793 /* Pods */,
+				CF75B4DD55A962E84EE40348 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69458CC31E46C0A600F6AFC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69458CC21E46C0A600F6AFC0 /* JDragonTypeButtonViewDemo.app */,
+				69458CDB1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests.xctest */,
+				69458CE61E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69458CC41E46C0A600F6AFC0 /* JDragonTypeButtonViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				69458CC81E46C0A600F6AFC0 /* AppDelegate.h */,
+				69458CC91E46C0A600F6AFC0 /* AppDelegate.m */,
+				69458CCB1E46C0A600F6AFC0 /* ViewController.h */,
+				69458CCC1E46C0A600F6AFC0 /* ViewController.m */,
+				69458CCE1E46C0A600F6AFC0 /* Main.storyboard */,
+				69458CD11E46C0A600F6AFC0 /* Assets.xcassets */,
+				69458CD31E46C0A600F6AFC0 /* LaunchScreen.storyboard */,
+				69458CD61E46C0A600F6AFC0 /* Info.plist */,
+				69458CC51E46C0A600F6AFC0 /* Supporting Files */,
+			);
+			path = JDragonTypeButtonViewDemo;
+			sourceTree = "<group>";
+		};
+		69458CC51E46C0A600F6AFC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69458CC61E46C0A600F6AFC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69458CDE1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				69458CDF1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests.m */,
+				69458CE11E46C0A600F6AFC0 /* Info.plist */,
+			);
+			path = JDragonTypeButtonViewDemoTests;
+			sourceTree = "<group>";
+		};
+		69458CE91E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69458CEA1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests.m */,
+				69458CEC1E46C0A600F6AFC0 /* Info.plist */,
+			);
+			path = JDragonTypeButtonViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		7CF6CCF3BD9FE0BF20D0F793 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2A1990CF5BA2F20820078B3 /* Pods-JDragonTypeButtonViewDemo.debug.xcconfig */,
+				3D1F06BFAF1948A61E244AAA /* Pods-JDragonTypeButtonViewDemo.release.xcconfig */,
+				50942E53C45DBADC9A128872 /* Pods-JDragonTypeButtonViewDemoTests.debug.xcconfig */,
+				DD6621C6045E08993B3420F2 /* Pods-JDragonTypeButtonViewDemoTests.release.xcconfig */,
+				AFD33B3BA0E9334F7EA15406 /* Pods-JDragonTypeButtonViewDemoUITests.debug.xcconfig */,
+				88691B2D3F7C764F90677BAF /* Pods-JDragonTypeButtonViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF75B4DD55A962E84EE40348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E90EA246B485407578BA13F /* libPods-JDragonTypeButtonViewDemo.a */,
+				B1A2AD79164A5E8D83A6D86D /* libPods-JDragonTypeButtonViewDemoTests.a */,
+				0FE786D82D91676A8E414BDA /* libPods-JDragonTypeButtonViewDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69458CC11E46C0A600F6AFC0 /* JDragonTypeButtonViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69458CEF1E46C0A600F6AFC0 /* Build configuration list for PBXNativeTarget "JDragonTypeButtonViewDemo" */;
+			buildPhases = (
+				D975ADC435E21D551333237A /* [CP] Check Pods Manifest.lock */,
+				69458CBE1E46C0A600F6AFC0 /* Sources */,
+				69458CBF1E46C0A600F6AFC0 /* Frameworks */,
+				69458CC01E46C0A600F6AFC0 /* Resources */,
+				A9B3FC17CDAF8B3E600969DA /* [CP] Embed Pods Frameworks */,
+				9EF5CB5954D29475EEA47855 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDragonTypeButtonViewDemo;
+			productName = JDragonTypeButtonViewDemo;
+			productReference = 69458CC21E46C0A600F6AFC0 /* JDragonTypeButtonViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69458CDA1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69458CF21E46C0A600F6AFC0 /* Build configuration list for PBXNativeTarget "JDragonTypeButtonViewDemoTests" */;
+			buildPhases = (
+				9A310E62C843E1B39E6109C9 /* [CP] Check Pods Manifest.lock */,
+				69458CD71E46C0A600F6AFC0 /* Sources */,
+				69458CD81E46C0A600F6AFC0 /* Frameworks */,
+				69458CD91E46C0A600F6AFC0 /* Resources */,
+				2DD4D534769F6AF9FACE29B8 /* [CP] Embed Pods Frameworks */,
+				257DF551DBFD2D890851BA34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69458CDD1E46C0A600F6AFC0 /* PBXTargetDependency */,
+			);
+			name = JDragonTypeButtonViewDemoTests;
+			productName = JDragonTypeButtonViewDemoTests;
+			productReference = 69458CDB1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69458CE51E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69458CF51E46C0A600F6AFC0 /* Build configuration list for PBXNativeTarget "JDragonTypeButtonViewDemoUITests" */;
+			buildPhases = (
+				3A7D14BA8458C8DFC6A658E5 /* [CP] Check Pods Manifest.lock */,
+				69458CE21E46C0A600F6AFC0 /* Sources */,
+				69458CE31E46C0A600F6AFC0 /* Frameworks */,
+				69458CE41E46C0A600F6AFC0 /* Resources */,
+				11095D572F0055BA6DD9C7F1 /* [CP] Embed Pods Frameworks */,
+				47B87BBBBC46DC2AC6EBA40B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69458CE81E46C0A600F6AFC0 /* PBXTargetDependency */,
+			);
+			name = JDragonTypeButtonViewDemoUITests;
+			productName = JDragonTypeButtonViewDemoUITests;
+			productReference = 69458CE61E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69458CBA1E46C0A600F6AFC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JDragon;
+				TargetAttributes = {
+					69458CC11E46C0A600F6AFC0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NBCMCCDR2L;
+						ProvisioningStyle = Automatic;
+					};
+					69458CDA1E46C0A600F6AFC0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NBCMCCDR2L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69458CC11E46C0A600F6AFC0;
+					};
+					69458CE51E46C0A600F6AFC0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NBCMCCDR2L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69458CC11E46C0A600F6AFC0;
+					};
+				};
+			};
+			buildConfigurationList = 69458CBD1E46C0A600F6AFC0 /* Build configuration list for PBXProject "JDragonTypeButtonViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69458CB91E46C0A600F6AFC0;
+			productRefGroup = 69458CC31E46C0A600F6AFC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69458CC11E46C0A600F6AFC0 /* JDragonTypeButtonViewDemo */,
+				69458CDA1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests */,
+				69458CE51E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69458CC01E46C0A600F6AFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69458CD51E46C0A600F6AFC0 /* LaunchScreen.storyboard in Resources */,
+				69458CD21E46C0A600F6AFC0 /* Assets.xcassets in Resources */,
+				69458CD01E46C0A600F6AFC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69458CD91E46C0A600F6AFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69458CE41E46C0A600F6AFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11095D572F0055BA6DD9C7F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonTypeButtonViewDemoUITests/Pods-JDragonTypeButtonViewDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		257DF551DBFD2D890851BA34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonTypeButtonViewDemoTests/Pods-JDragonTypeButtonViewDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DD4D534769F6AF9FACE29B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonTypeButtonViewDemoTests/Pods-JDragonTypeButtonViewDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A7D14BA8458C8DFC6A658E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47B87BBBBC46DC2AC6EBA40B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonTypeButtonViewDemoUITests/Pods-JDragonTypeButtonViewDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A310E62C843E1B39E6109C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF5CB5954D29475EEA47855 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonTypeButtonViewDemo/Pods-JDragonTypeButtonViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B3FC17CDAF8B3E600969DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonTypeButtonViewDemo/Pods-JDragonTypeButtonViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D975ADC435E21D551333237A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69458CBE1E46C0A600F6AFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69458CCD1E46C0A600F6AFC0 /* ViewController.m in Sources */,
+				69458CCA1E46C0A600F6AFC0 /* AppDelegate.m in Sources */,
+				69458CC71E46C0A600F6AFC0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69458CD71E46C0A600F6AFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69458CE01E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69458CE21E46C0A600F6AFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69458CEB1E46C0A600F6AFC0 /* JDragonTypeButtonViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69458CDD1E46C0A600F6AFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69458CC11E46C0A600F6AFC0 /* JDragonTypeButtonViewDemo */;
+			targetProxy = 69458CDC1E46C0A600F6AFC0 /* PBXContainerItemProxy */;
+		};
+		69458CE81E46C0A600F6AFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69458CC11E46C0A600F6AFC0 /* JDragonTypeButtonViewDemo */;
+			targetProxy = 69458CE71E46C0A600F6AFC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69458CCE1E46C0A600F6AFC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69458CCF1E46C0A600F6AFC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69458CD31E46C0A600F6AFC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69458CD41E46C0A600F6AFC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69458CED1E46C0A600F6AFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69458CEE1E46C0A600F6AFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69458CF01E46C0A600F6AFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A1990CF5BA2F20820078B3 /* Pods-JDragonTypeButtonViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonTypeButtonViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonTypeButtonViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69458CF11E46C0A600F6AFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1F06BFAF1948A61E244AAA /* Pods-JDragonTypeButtonViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonTypeButtonViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonTypeButtonViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69458CF31E46C0A600F6AFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50942E53C45DBADC9A128872 /* Pods-JDragonTypeButtonViewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonTypeButtonViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonTypeButtonViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDragonTypeButtonViewDemo.app/JDragonTypeButtonViewDemo";
+			};
+			name = Debug;
+		};
+		69458CF41E46C0A600F6AFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6621C6045E08993B3420F2 /* Pods-JDragonTypeButtonViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonTypeButtonViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonTypeButtonViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDragonTypeButtonViewDemo.app/JDragonTypeButtonViewDemo";
+			};
+			name = Release;
+		};
+		69458CF61E46C0A600F6AFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD33B3BA0E9334F7EA15406 /* Pods-JDragonTypeButtonViewDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonTypeButtonViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonTypeButtonViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDragonTypeButtonViewDemo;
+			};
+			name = Debug;
+		};
+		69458CF71E46C0A600F6AFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88691B2D3F7C764F90677BAF /* Pods-JDragonTypeButtonViewDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonTypeButtonViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonTypeButtonViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDragonTypeButtonViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69458CBD1E46C0A600F6AFC0 /* Build configuration list for PBXProject "JDragonTypeButtonViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69458CED1E46C0A600F6AFC0 /* Debug */,
+				69458CEE1E46C0A600F6AFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69458CEF1E46C0A600F6AFC0 /* Build configuration list for PBXNativeTarget "JDragonTypeButtonViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69458CF01E46C0A600F6AFC0 /* Debug */,
+				69458CF11E46C0A600F6AFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69458CF21E46C0A600F6AFC0 /* Build configuration list for PBXNativeTarget "JDragonTypeButtonViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69458CF31E46C0A600F6AFC0 /* Debug */,
+				69458CF41E46C0A600F6AFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69458CF51E46C0A600F6AFC0 /* Build configuration list for PBXNativeTarget "JDragonTypeButtonViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69458CF61E46C0A600F6AFC0 /* Debug */,
+				69458CF71E46C0A600F6AFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69458CBA1E46C0A600F6AFC0 /* Project object */;
+}
