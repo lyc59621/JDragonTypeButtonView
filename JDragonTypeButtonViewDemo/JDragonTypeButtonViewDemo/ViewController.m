@@ -26,6 +26,14 @@
     [typeBtnView setTypeButtonNormalColor:RGBCOLOR(0x656565) andSelectColor:RGBCOLOR(0xde2418)];
     typeBtnView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:typeBtnView];
+    
+    
+      JDragonTypeButtonView  *typeBtnView2 = [[JDragonTypeButtonView  alloc]initWithFrame:CGRectMake(0, 150, [UIScreen mainScreen].bounds.size.width, 44)];
+    [typeBtnView2 setTypeButtonAutoTitles:@[@"第一个a",@"第二个",@"第三",@"第四个啊啊"] withDownLableHeight:3 andDeleagte:self];
+    [typeBtnView2 setTypeButtonNormalColor:RGBCOLOR(0x656565) andSelectColor:RGBCOLOR(0xde2418)];
+    typeBtnView2.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:typeBtnView2];
+    
 }
 //实现代理
 -(void)didClickTypeButtonAction:(UIButton*)button withIndex:(NSInteger)index

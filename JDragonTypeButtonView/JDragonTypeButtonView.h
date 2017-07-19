@@ -8,14 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-//typedef enum TypeButtonEnum:NSUInteger
-//{
-//    JDragonTypeBtnDefault,
-//    JDragonTypeBtnFind,
-//    
-//    
-//}JDragonTypeButtonEnum;
-
 
 @protocol JDragonTypeButtonActionDelegate <NSObject>
 
@@ -31,14 +23,20 @@
 @property(nonatomic,assign) id<JDragonTypeButtonActionDelegate> delegate;
 
 /**
- *  设置btn  数组
+ *  设置btn  数组  自动Width
  *
  *  @param titles        <#titles description#>
  *  @param downLabHeight downLab height
  */
 -(void)setTypeButtonTitles:(NSArray*)titles  withDownLableHeight:(CGFloat)downLabHeight andDeleagte:(id<JDragonTypeButtonActionDelegate>)deleget;
 
-
+/**
+ *  设置btn  数组  计算Title Width
+ *
+ *  @param titles        <#titles description#>
+ *  @param downLabHeight downLab height
+ */
+-(void)setTypeButtonAutoTitles:(NSArray*)titles  withDownLableHeight:(CGFloat)downLabHeight andDeleagte:(id<JDragonTypeButtonActionDelegate>)deleget;
 
 /**
  *  设置选中button
