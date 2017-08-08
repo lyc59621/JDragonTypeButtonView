@@ -113,17 +113,17 @@
  *  @param titles        <#titles description#>
  *  @param downLabHeight downLab height
  */
--(void)setTypeButtonAutoTitles:(NSArray*)titles  withDownLableHeight:(CGFloat)downLabHeight andDeleagte:(id<JDragonTypeButtonActionDelegate>)deleget
+-(void)setTypeButtonAutoTitles:(NSArray*)titles  withDownLableHeight:(CGFloat)downLabHeight withPaddingWeight:(CGFloat)paddingW andDeleagte:(id<JDragonTypeButtonActionDelegate>)deleget
 {
     isAuto = true;
-    padding = 10;
+    padding =  paddingW;
     [self customInit];
     self.delegate = deleget;
     NSDictionary*attrs =@{NSFontAttributeName: [UIFont systemFontOfSize:14]};
     //计算文本宽度。
-    CGFloat   textW = [titles[0]  boundingRectWithSize:CGSizeMake(weight, height)  options:NSStringDrawingUsesLineFragmentOrigin  attributes:attrs   context:nil].size.width+padding;
+    CGFloat   textW = [titles[0]  boundingRectWithSize:CGSizeMake(weight, height)  options:NSStringDrawingUsesLineFragmentOrigin  attributes:attrs   context:nil].size.width;
     buttonWeight = textW;
-    downLabel.frame = CGRectMake(0, height-downLabHeight, textW, downLabHeight);
+    downLabel.frame = CGRectMake(padding/2, height-downLabHeight, textW, downLabHeight);
     downLabFrame = downLabel.frame;
     downLabel.backgroundColor = BtnRGBCOLOR(0x4a90e2);
     for (int  i=0; i<titles.count; i++)
@@ -182,9 +182,9 @@
     }
     if (btn.selected) {
         
-        downLabFrame.origin.x = btn.frame.origin.x;
-        downLabFrame.size.width = btn.frame.size.width;
-        buttonWeight =  btn.frame.size.width;
+        downLabFrame.origin.x = btn.frame.origin.x+(padding/2);
+        downLabFrame.size.width = btn.frame.size.width-padding;
+        buttonWeight =  downLabFrame.size.width;
         [self bringSubviewToFront:btn];
         [UIView  animateWithDuration:.2 animations:^{
             downLabel.frame = downLabFrame;

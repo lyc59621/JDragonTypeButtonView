@@ -36,7 +36,10 @@
  *  @param titles        <#titles description#>
  *  @param downLabHeight downLab height
  */
--(void)setTypeButtonAutoTitles:(NSArray*)titles  withDownLableHeight:(CGFloat)downLabHeight andDeleagte:(id<JDragonTypeButtonActionDelegate>)deleget;
+//-(void)setTypeButtonAutoTitles:(NSArray*)titles  withDownLableHeight:(CGFloat)downLabHeight andDeleagte:(id<JDragonTypeButtonActionDelegate>)deleget;
+
+-(void)setTypeButtonAutoTitles:(NSArray*)titles  withDownLableHeight:(CGFloat)downLabHeight withPaddingWeight:(CGFloat)paddingW andDeleagte:(id<JDragonTypeButtonActionDelegate>)deleget;
+
 
 /**
  *  设置选中button

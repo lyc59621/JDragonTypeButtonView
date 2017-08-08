@@ -11,7 +11,7 @@ iOS  SliderBtn 封装
 
 ```
 
-pod 'JDragonTypeButtonView','~> 0.0.2'
+pod 'JDragonTypeButtonView','~> 0.0.3'
 
 
 ```
